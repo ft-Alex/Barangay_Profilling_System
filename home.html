@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Home Page</title>
+</head>
+<body>
+    This is for the Navigation Bar
+    <link href="../CSS/Nav-Bar.css" rel="stylesheet">
+    <div class="fixed-top">
+        <nav class="navbar navbar-expand-sm bg-light">
+            <div class="top container">
+                <h1 class="barangay">CARARAYAN</h1>
+                <ul class="navbar-nav">
+                    <li class="nav-right">   
+                            <p><strong>EMERGENCY</strong> <br> 0951 005 9145</p></li>
+                    </li>
+                    <li class="nav-right">
+                            <p><strong>WORK HOUR</strong>  <br> 8:00 - 500 PM | Mon-Fri</p>
+                    </li>
+                    <li class="nav-right">
+                            <p> <strong>LOCATION</strong> <br> Cararayan, Naga City Camarines Sur</p>
+                    </li>
+                </ul>
+            </div>
+            </nav>
+        
+            <nav class="navbar navbar-expand-sm bg-light">
+                
+                <div class="container-fluid below">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link navigation current" href="#">Home</a></li>
+                        <li><a class="nav-link navigation" href="aboutus.html">About</a></li>
+                        <li><a class="nav-link navigation" href="services.html">Services</a></li>
+                        <li><a class="nav-link navigation" href="faq.html">FAQ</a></li>
+                        <li><a class="nav-link navigation" href="news.html">News</a></li>
+                        <li><a class="nav-link navigation" href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+    </div>
+
+
+    <!-- This is for the Top Home-Page -->
+    <link href="../CSS/Home-Page.css" rel="stylesheet">
+    <main class="box-search">
+        <div class="Image_holder">
+            <img class="img-fluid image_left" src="../IMAGE/HomePage/Top_Bg.png" alt="Home Page Background" style="width: 100%; ">
+            <div class="text_block">
+                <h1 class="yesseva center_text">Cararayan <h5 class="work">Naga City, Camarines Sur</h5></h1>
+                <div class="button_service work">
+                    <button onclick="document.location ='services.html'" class="top_button">Our Services</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="announcement">
+        <ul class="list-group list-group-horizontal spaces">
+            <li ><button class="button_size ann work" onclick="document.location='news.html'">Announcement & Activities <img class="space" src="../IMAGE/HomePage/Calendar.png" alt="News" width="40px"></button></li>
+            <li><button  class="button_size proj work" onclick="document.location='news.html'">Barangay Projects <img class="space" src="../IMAGE/HomePage/Barangay_Proj.png" alt="Projects" width="40px" height="40px"></button></li>
+            <li ><button id="location_button" class="button_size loc work">Office Location <img class="space" src="../IMAGE/HomePage/Location.png" alt="Location" width="40px" height="40px"></button></li>
+        </ul>
+    </div>
+
+
+    <script type="text/javascript" src="../JAVASCRIPT/java.js"></script>
+</body>
+</html>
